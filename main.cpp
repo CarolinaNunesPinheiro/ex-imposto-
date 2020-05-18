@@ -1,7 +1,22 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
 
-int main(int argc, char** argv) {
+int main() {
+	double  sal, ser, cap, med, edu;
+	
+	cout << fixed << setprecision (2.0);
+	
+cout << "Renda anual com salario: ";
+cin >> sal;
+cout << "Renda anual com prestacao de servico: ";
+cin >> ser;
+cout << "Renda anual com ganho de capital: ";
+cin >> cap;
+cout << "Gastos medicos: "; 
+cin >> med;
+cout << "Gastos educacionais: ";
+cin >> edu;
+
 	return 0;
 }
